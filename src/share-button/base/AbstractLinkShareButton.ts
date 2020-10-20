@@ -1,5 +1,5 @@
 import AbstractShareButton from "./AbstractShareButton";
-import EventHandler from "./EventHandler";
+import EventHandler from "../../event-handler/interfaces/EventHandler";
 
 export default abstract class AbstractLinkShareButton extends AbstractShareButton {
     url: string;

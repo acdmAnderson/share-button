@@ -1,4 +1,4 @@
-import EventHandler from "./EventHandler";
+import EventHandler from "../../event-handler/interfaces/EventHandler";
 
 export default abstract class AbstractShareButton {
     eventHandler: EventHandler;

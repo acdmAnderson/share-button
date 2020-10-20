@@ -1,8 +1,8 @@
-import ShareButtonFacebook from "./ShareButtonFacebook";
-import ShareButtonLinkedIn from "./ShareButtonLinkedIn";
-import ShareButtonTwitter from "./ShareButtonTwitter";
-import ShareButtonPrint from "./ShareButtonPrint";
-import DOMEventHandler from "./DOMEventHandler";
+import ShareButtonFacebook from "./share-button/ShareButtonFacebook";
+import DOMEventHandler from "./event-handler/DOMEventHandler";
+import ShareButtonTwitter from "./share-button/ShareButtonTwitter";
+import ShareButtonLinkedIn from "./share-button/ShareButtonLinkedIn";
+import ShareButtonPrint from "./share-button/ShareButtonPrint";
 
 const eventHandler = new DOMEventHandler();
 const twitter = new ShareButtonTwitter("", ".btn-twitter", eventHandler);
