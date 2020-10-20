@@ -1,10 +1,11 @@
 import AbstractShareButton from "./AbstractShareButton";
+import EventHandler from "./EventHandler";
 
 export default abstract class AbstractLinkShareButton extends AbstractShareButton {
     url: string;
 
-    constructor(url: string, clazz: string) {
-        super(clazz);
+    constructor(url: string, clazz: string, eventHandler: EventHandler) {
+        super(eventHandler, clazz);
         this.url = url;
     }
 

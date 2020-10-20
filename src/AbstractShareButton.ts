@@ -4,8 +4,8 @@ export default abstract class AbstractShareButton {
     eventHandler: EventHandler;
     clazz: string;
 
-    constructor(clazz: string) {
-        this.eventHandler = new EventHandler();
+    constructor(eventHandler: EventHandler,clazz: string) {
+        this.eventHandler = eventHandler;
         this.clazz = clazz;
     }
 
